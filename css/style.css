@@ -1,0 +1,122 @@
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*,
+*::before,
+*::after {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --color-black: #000000;
+  --color-white: #FFFFFF;
+  --color-gray-hard: #333333;
+  --color-gray-medium: #666666;
+  --color-gray-lite: #999999;
+  --color-purple-gentle: #D1A9F0;
+  --color-purple-lite: #C283F3;
+  --color-purple-medium: #9D5CD0;
+  --color-purple-hard: #7943A4;
+}
+
+
+@font-face {
+  font-family: "OpenSans";
+  src: url(../fonts/OpenSans-Bold.ttf);
+       font-style: normal;
+       font-weight: 700;
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url(../fonts/OpenSans-Medium.ttf);
+       font-style: normal;
+       font-weight: 600;
+}
+
+
+body {
+  font-family: 'OpenSans', sans-serif;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+  padding: 0 58px;
+}
+
+.sprite-top {
+  width: 100%;
+  padding: 60px 0 42px 0;
+  background-color: #FFF6ED;
+}
+.sprite-top__h1 {
+  margin: 0;
+  width: 375px;
+  margin: 0 auto;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 54px;
+  color: #000000;
+  margin-bottom: 40px;
+}
+.sprite-top__article-block {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+.sprite-top__article {
+  max-width: 375px;
+  width: 100%;
+  background-color: transparent;
+  padding-top: 309px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.sprite-top__article:nth-child(1) {
+  background-image: url('sprite.svg#1');
+}
+.sprite-top__article:nth-child(2) {
+  background-image: url('sprite.svg#2');
+}
+.sprite-top__article:nth-child(3) {
+  background-image: url('sprite.svg#3');
+}
+.sprite-top__article-h2 {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 41px;
+  color: #000000;
+}
+.sprite-top__article-h2 span {
+  margin: 0;
+color: #FF7A00;
+}
+.sprite-top__article-p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #000000;
+}
+
+
+
+
+/* 
+<svg class="icon">
+  <use xlink:href="#Ink"></use>
+</svg> 
+*/
+
