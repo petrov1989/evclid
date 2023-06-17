@@ -84,7 +84,7 @@ body {
   background-position: center;
 }
 .sprite-top__article:nth-child(1) {
-  background: url('sprite.svg#coffe');
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg"><use xlink:href="sprite.svg#coffe"></use></svg>');
 }
 .sprite-top__article:nth-child(2) {
   background-image: url('sprite.svg#2');
