@@ -84,7 +84,7 @@ body {
   background-position: center;
 }
 .sprite-top__article:nth-child(1) {
-  background-image: url('../sprite.svg#1');
+  background-image: url('./sprite.svg#1');
 }
 .sprite-top__article:nth-child(2) {
   background-image: url('sprite.svg#2');
