@@ -105,7 +105,6 @@ color: #FF7A00;
   display: flex;
   justify-content: space-between;
   padding: 60px 0 24px 0;
-  background-image: url('sprite.svg#Frame1');
   background-repeat: no-repeat;
 
 }
