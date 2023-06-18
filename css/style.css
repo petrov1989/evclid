@@ -102,14 +102,13 @@ color: #FF7A00;
 
 .sprite-bottom {
   width: 100%;
+  padding: 60px 0 24px 0;
+}
+.sprite-bottom-container {
   display: flex;
   justify-content: space-between;
-  padding: 60px 0 24px 0;
-  background-repeat: no-repeat;
-
 }
 .sprite-bottom__description-block {
-  width: 100%;
 }
 .sprite-bottom__h1 {
   margin: 0;
@@ -128,21 +127,38 @@ color: #FF7A00;
   color: #000000;
 }
 
-.sprite-bottom__socials-block {}
+.sprite-bottom__socials-block {
+  max-width: 662px;
+  width: 100%;
+  background-image: url('../circle_bg.png');
+  background-repeat: no-repeat;
+  position: top left;
+  padding: 69px 0 61px 112px;
+}
 
 .sprite-bottom__socials-ul {
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   list-style-type: none;
 }
 
-.sprite-bottom__socials-li {}
+.sprite-bottom__socials-li {
+  margin: 0;
+  padding: 0;
+}
+.sprite-bottom__socials-li:not(:nth-child(4)) {
+  margin-right: 60px;
+}
+.sprite-bottom__socials-li:nth-child(5) {
+  margin-left: 70px;
+}
 
-.sprite-bottom__socials-link {}
+.sprite-bottom__socials-link {
+  margin: 0;
+  padding: 0;
+}
 
-/* 
-<svg class="icon">
-  <use xlink:href="#Ink"></use>
-</svg> 
-*/
 
