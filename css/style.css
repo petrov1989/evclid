@@ -132,8 +132,9 @@ color: #FF7A00;
   width: 100%;
   background-image: url('../circle_bg.png');
   background-repeat: no-repeat;
+  background-size: 550px 275px;
   position: top left;
-  padding: 69px 0 61px 112px;
+  padding: 69px 0 0 112px;
 }
 
 .sprite-bottom__socials-ul {
@@ -151,6 +152,7 @@ color: #FF7A00;
 }
 .sprite-bottom__socials-li:not(:nth-child(4)) {
   margin-right: 60px;
+  margin-bottom: 30px;
 }
 .sprite-bottom__socials-li:nth-child(5) {
   margin-left: 70px;
